@@ -50,4 +50,19 @@ int main() {
     printf("Enter number of subintervals (n): ");
     scanf("%d", &n);
 
+if (n <= 0) {
+        printf("Number of subintervals must be positive!\n");
+        return 1;
+    }
+
+    // Compute approximations
+    double trap = trapezoidal(a, b, n);
+    double extrap = richardson(a, b, n);
+    double exact = exp(b) - exp(a); // true integral of e^x from a to b
+
+    // Print results
+    printf("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+    printf("   Results\n");
+
+
 
