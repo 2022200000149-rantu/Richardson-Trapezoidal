@@ -24,4 +24,16 @@ double richardson(double a, double b, int n) {
     return (4 * T_h2 - T_h) / 3.0;
 }
 
+int main() {
+    double a, b;
+    int n;
+
+    // Show formulas before taking input
+    printf("\n");
+    printf("   Richardson Extrapolation with Trapezoidal Rule\n");
+    printf("\n");
+    printf("Trapezoidal Rule Formula:\n");
+    printf("   T(h) = (h/2) * [ f(a) + 2*Σ f(a+i*h) + f(b) ]\n");
+    printf("where h = (b-a)/n\n\n");
+
 
