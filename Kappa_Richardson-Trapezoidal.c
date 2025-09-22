@@ -36,4 +36,18 @@ int main() {
     printf("   T(h) = (h/2) * [ f(a) + 2*Σ f(a+i*h) + f(b) ]\n");
     printf("where h = (b-a)/n\n\n");
 
+    printf("Richardson Extrapolation Formula:\n");
+    printf("   I ≈ (4*T(h/2) - T(h)) / 3\n\n");
+
+    printf("Function to integrate: f(x) = e^x\n");
+    printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n");
+
+    // Take user input
+    printf("Enter lower limit (a): ");
+    scanf("%lf", &a);
+    printf("Enter upper limit (b): ");
+    scanf("%lf", &b);
+    printf("Enter number of subintervals (n): ");
+    scanf("%d", &n);
+
 
