@@ -52,7 +52,8 @@ int main() {
     scanf("%lf", &b);
     printf("Enter number of subintervals (n): ");
     scanf("%d", &n);
-
+//Sahil
+    
 if (n <= 0) {
         printf("Number of subintervals must be positive!\n");
         return 1;
@@ -78,6 +79,7 @@ if (n <= 0) {
 
     return 0;
 }
+
 
 
 
