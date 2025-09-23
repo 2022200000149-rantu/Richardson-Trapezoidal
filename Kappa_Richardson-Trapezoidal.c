@@ -54,7 +54,8 @@ int main() {
     scanf("%d", &n);
 //Sahil
     
-if (n <= 0) {
+
+    if (n <= 0) {
         printf("Number of subintervals must be positive!\n");
         return 1;
     }
@@ -65,8 +66,10 @@ if (n <= 0) {
     double exact = exp(b) - exp(a); // true integral of e^x from a to b
 
     // Print results
-    printf("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+    printf("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
     printf("   Results\n");
+    //Chumki
+
 
  printf("   Integral of e^x from %.2f to %.2f\n", a, b);
     printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
@@ -79,6 +82,7 @@ if (n <= 0) {
 
     return 0;
 }
+
 
 
 
