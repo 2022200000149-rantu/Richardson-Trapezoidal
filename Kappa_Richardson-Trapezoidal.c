@@ -64,6 +64,18 @@ if (n <= 0) {
     printf("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
     printf("   Results\n");
 
+ printf("   Integral of e^x from %.2f to %.2f\n", a, b);
+    printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+    printf("Method                     Approximation           Error\n");
+    printf("--------------------------------------------------------------------------------\n");
+    printf("Trapezoidal (n=%d)           %14.10f       %.5e\n", n, trap, fabs(trap - exact));
+    printf("Richardson  Extrapolation   %14.10f       %.5e\n", extrap, fabs(extrap - exact));
+    printf("Exact Value                 %14.10f\n", exact);
+    printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+
+    return 0;
+}
+
 
 
 
