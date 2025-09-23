@@ -10,6 +10,7 @@ double f(double x) {
 double trapezoidal(double a, double b, int n) {
     double h = (b - a) / n;
     double sum = 0.5 * (f(a) + f(b));
+// Rantu
 
    for (int i = 1; i < n; i++) {
         sum += f(a + i * h);
@@ -75,6 +76,7 @@ if (n <= 0) {
 
     return 0;
 }
+
 
 
 
