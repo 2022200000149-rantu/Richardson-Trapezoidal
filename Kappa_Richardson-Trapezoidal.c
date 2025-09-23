@@ -37,6 +37,7 @@ int main() {
     printf("Trapezoidal Rule Formula:\n");
     printf("   T(h) = (h/2) * [ f(a) + 2*Σ f(a+i*h) + f(b) ]\n");
     printf("where h = (b-a)/n\n\n");
+    //ratul
 
     printf("Richardson Extrapolation Formula:\n");
     printf("   I ≈ (4*T(h/2) - T(h)) / 3\n\n");
@@ -77,6 +78,7 @@ if (n <= 0) {
 
     return 0;
 }
+
 
 
 
