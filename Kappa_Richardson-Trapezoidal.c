@@ -24,7 +24,7 @@ double richardson(double a, double b, int n) {
     double T_h2 = trapezoidal(a, b, 2 * n);  // step h/2
     return (4 * T_h2 - T_h) / 3.0;
 }
-
+//Haider
 
 int main() {
     double a, b;
@@ -77,6 +77,7 @@ if (n <= 0) {
 
     return 0;
 }
+
 
 
 
